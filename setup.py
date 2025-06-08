@@ -28,7 +28,8 @@ commands_1 = [
     "sudo apt-get -y autoremove",
     
     # # "sudo pip3 install -U pip",
-    # "sudo apt-get install python-pip --upgrade", 
+    # "sudo apt-get install python-pip --upgrade",
+    "sudo apt-get install libjpeg-dev",
     "sudo python3 -m pip install --upgrade pip",
     "sudo python3 -m pip install --upgrade Pillow",
     
