@@ -26,8 +26,12 @@ commands_1 = [
     "sudo apt-get purge -y libreoffice*",
     "sudo apt-get -y clean",
     "sudo apt-get -y autoremove",
-    # "sudo pip3 install -U pip",
-    "sudo apt-get install python-pip --upgrade",
+    
+    # # "sudo pip3 install -U pip",
+    # "sudo apt-get install python-pip --upgrade", 
+    "sudo python3 -m pip install --upgrade pip",
+    "sudo python3 -m pip install --upgrade Pillow",
+    
     "sudo apt-get install -y python-dev python-pip libfreetype6-dev libjpeg-dev build-essential",
     "sudo apt-get install -y i2c-tools",
     "sudo -H pip3 install --upgrade luma.oled",
