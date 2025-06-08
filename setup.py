@@ -29,11 +29,13 @@ commands_1 = [
     
     # # "sudo pip3 install -U pip",
     # "sudo apt-get install python-pip --upgrade",
+    "sudo apt-get install -y python3-pip python3-venv libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7 libtiff5 build-essential",
     "sudo apt-get install libjpeg-dev",
     "sudo python3 -m pip install --upgrade pip",
     "sudo python3 -m pip install --upgrade Pillow",
     
-    "sudo apt-get install -y python-dev python-pip libfreetype6-dev libjpeg-dev build-essential",
+    # "sudo apt-get install -y python-dev python-pip libfreetype6-dev libjpeg-dev build-essential",
+    
     "sudo apt-get install -y i2c-tools",
     "sudo -H pip3 install --upgrade luma.oled",
     "sudo pip3 install rpi_ws281x",
